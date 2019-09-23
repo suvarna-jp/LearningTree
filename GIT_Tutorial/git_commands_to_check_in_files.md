@@ -32,6 +32,7 @@ git push origin suvarna_bootstrap
 For Flask project,
 
 ## Commands to start a Flask project starting from the Virtual environment setup
+```Python code
 pip install pipenv
 
 mkdir <src_dir>
@@ -42,6 +43,7 @@ pipenv install requests
 
 code .
 
+```
 We should see the Source folder and 2 files :: Pipfile and Pipfile.lock
 
 Under src folder create your App.py or by any python file name of your choice 
