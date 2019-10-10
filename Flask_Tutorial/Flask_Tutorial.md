@@ -126,3 +126,16 @@ $ python app.py
     
     <|Folder:|static - can have css/js/images or any other sub folders|>
 
+
+
+#####To use WTF forms
+
+```
+$ pip install flask-wtf
+```
+
+
+
+
+
+
