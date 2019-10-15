@@ -43,3 +43,38 @@ npm run build.
 6) SPA - Single page application
 7) RWD - Responsive Web Development
 
+* React uses JSX - JAvaScript XML
+    React creators created a language called JSX.  JSX (JavaScript XML) is an extension to the JavaScript language syntax. It is very much like a JavaScript rendition or version of HTML. JSX looks almost identical to HTML.
+
+    This is a reason why we have to import React in the first line.  The React library is the one that will enable JSX to work the way it's supposed to work.
+
+    ```
+    import React from 'react';
+    ```
+
+* It is important to know is that you cannot render two JSX objects next to each other! 
+
+    ```
+    ReactDOM.render(<h1>Hello World</h1><h2>Sub heading</h2>, document.getElementById("root"));
+    ```
+    The above code will cause an error. Remember it is an XML and hence the 2 JSX objects (h1 & h2) need to be wrapped (maybe with a <div> tag or so) before passing as the first argument to ReactDOM.render(). Like,
+
+    ```
+    ReactDOM.render(
+        <div>
+        <h1>Hello World</h1>
+        <h2>Sub heading</h2>
+        </div>,
+        document.getElementById("root")
+    );
+    ```
+    OR if you don't want the extra <div> tag, you can use <React.Fragment> tag like : 
+
+    ```
+    ReactDOM.render(
+        <React.Fragment>
+        <h1>Hello World</h1>
+        <h2>Sub heading</h2>
+        </React.Fragment>,
+        document.getElementById("root")
+    );
