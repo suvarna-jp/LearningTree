@@ -39,5 +39,7 @@ npm run build.
 2) Create React App
 3) JSX (Syntax)
 4) NPM
-
+5) Cross platform
+6) SPA - Single page application
+7) RWD - Responsive Web Development
 
