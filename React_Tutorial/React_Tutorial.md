@@ -32,7 +32,7 @@ npm run build.
 
 # About React
 
-* React is a JavaScript library developed by Facebook which makes it very easy to create interactive UIs.
+* React is a JavaScript library developed by Facebook (by Jordan Walke, a software engineer) which makes it very easy to create interactive UIs.
 * Most technologies involved while creating React application are
 
 1) React
@@ -78,3 +78,19 @@ npm run build.
         </React.Fragment>,
         document.getElementById("root")
     );
+    ```
+
+* Virtual DOM
+
+    Virtual DOM is a JavaScript object that is a 'virtual'  representation of 'real' DOM.
+
+* Why use React?
+
+    1) It updates & renders only the elements that change/update in the DOM. Hence quick rendering.
+
+    2) Build encapsulated components that can manage their own state.
+
+    3) React can also render on the server using Node and powerful mobile apps using React Native.
+
+
+
