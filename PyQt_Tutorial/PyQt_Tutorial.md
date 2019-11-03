@@ -254,6 +254,18 @@ https://realpython.com/python-pyqt-gui-calculator/
 
 
 
+# QDate, QTime, QDateTime
+
+PyQt5 has QDate, QDateTime, QTime classes to work with date and time. 
+* The QDate is a class for working with a calendar date in the Gregorian calendar. It has methods for determining the date, comparing, or manipulating dates. 
+* The QTime class works with a clock time. It provides methods for comparing time, determining the time and various other time manipulating methods. 
+* The QDateTime is a class that combines both QDate and QTime objects into one object.
+
+PyQt5 has currentDate(), currentTime() and currentDateTime() methods for determining current date and time.
+
+For more read about Qt Date/Time : 
+
+http://zetcode.com/gui/pyqt5/datetime/
 
 
 
