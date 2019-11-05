@@ -548,7 +548,8 @@ https://build-system.fman.io/pyqt5-tutorial
 https://build-system.fman.io/pyqt-exe-creation/
 https://realpython.com/python-pyqt-gui-calculator/
 
-
+Qt Example & tutorials:
+https://doc.qt.io/qt-5/qtexamplesandtutorials.html
 
 
 # QDate, QTime, QDateTime
