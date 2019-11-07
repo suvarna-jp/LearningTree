@@ -47,3 +47,89 @@ if __name__ == '__main__':
     unittest.main()
 
 ```
+
+run test using (if you face Module not found error) :
+
+python -m unittest discover -v <test files path: test\main\python> -v
+
+```
+python -m unittest discover -v test\main\python -v
+```
+
+
+## The most commonly used TestCase class methods
+
+The TestCase class provides several assert methods to check for and report failures. The following table lists the most commonly used methods
+
+assertEqual(a, b)
+
+a == b
+
+assertNotEqual(a, b)
+
+a != b
+
+assertTrue(x)
+
+bool(x) is True
+
+assertFalse(x)
+
+bool(x) is False
+
+assertIs(a, b)
+
+a is b
+
+2.7
+
+assertIsNot(a, b)
+
+a is not b
+
+2.7
+
+assertIsNone(x)
+
+x is None
+
+2.7
+
+assertIsNotNone(x)
+
+x is not None
+
+2.7
+
+assertIn(a, b)
+
+a in b
+
+2.7
+
+assertNotIn(a, b)
+
+a not in b
+
+2.7
+
+assertIsInstance(a, b)
+
+isinstance(a, b)
+
+2.7
+
+assertNotIsInstance(a, b)
+
+not isinstance(a, b)
+
+2.7
+
+### Sources : 
+
+https://docs.python.org/2/library/unittest.html#classes-and-functions
+
+https://docs.python.org/2/library/unittest.html#organizing-test-code
+
+https://cgoldberg.github.io/python-unittest-tutorial/
+
