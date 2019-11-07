@@ -551,6 +551,14 @@ https://realpython.com/python-pyqt-gui-calculator/
 Qt Example & tutorials:
 https://doc.qt.io/qt-5/qtexamplesandtutorials.html
 
+https://programming.vip/docs/pyqt5-quick-start-pyqt5-gui-interface-design.html
+
+https://pythonspot.com/pyqt5-image/
+https://pythonspot.com/pyqt5-file-dialog/
+
+http://zetcode.com/gui/pyqt5/firstprograms/
+
+
 
 # QDate, QTime, QDateTime
 
@@ -578,3 +586,9 @@ pyuic5 -x <uifilename>.ui -o <pyfilename>.py
 
 this code converts a .ui file (which is basically an xml file created by PyQt5 GUI editor) to .py file (python code file)
 
+
+
+
+src/main/python/__pycache__/model.cpython-37.pyc
+src/main/python/__pycache__/settings.cpython-37.pyc
+src/main/python/__pycache__/view.cpython-37.pyc
