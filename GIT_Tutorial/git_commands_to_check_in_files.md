@@ -1,4 +1,7 @@
-#### Steps to follow to upload files to GIT_HUB
+# Steps to follow to upload files to GIT_HUB
+
+## Readme file - How to write .md files 
+https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md
 
 ## To checkout a branch on your name to your local system
 git checkout -b <your_name___topic_name = branch_name>
