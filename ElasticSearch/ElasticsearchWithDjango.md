@@ -62,3 +62,7 @@ Once we’ve installed the Elasticsearch server, we can configure it by putting 
 ## Reference from links:
 
 https://sunscrapers.com/blog/how-to-use-elasticsearch-with-django/
+
+https://django-elasticsearch-dsl-drf.readthedocs.io/en/0.4.3/advanced_usage_examples.html
+
+https://djangotricks.blogspot.com/2018/06/data-filtering-in-a-django-website-using-elasticsearch.html
