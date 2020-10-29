@@ -3,6 +3,8 @@
   Elasticsearch is an open-source, RESTful, distributed search and analytics engine built on Apache Lucene, **written in Java**. Since its release in 2010, Elasticsearch has quickly become the most popular search engine. It’s commonly used for log analytics, full-text search, security intelligence, business analytics, and operational intelligence.
 
   Companies like eBay, Facebook, Uber, and Github use Elasticsearch to build search, aggregation, analytics, and other functionalities in their products.
+  
+  Elasticsearch is java-based search engine which stores data in JSON format and allows you to query it using special JSON-based query language. Using elasticsearch-dsl and django-elasticsearch-dsl, I can bind my Django models to Elasticsearch indexes and rewrite my object list views to use Elasticsearch queries instead of Django ORM. The API of Elasticsearch DSL is chainable like with Django QuerySets or jQuery functions.
 
 
 ## Why use Elasticsearch?
