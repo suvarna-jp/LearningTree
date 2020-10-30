@@ -1,6 +1,6 @@
 ## Reference Links
 
-#### Durgasoft Tutorials :
+#### Durgasoft Tutorials | Struts :
 1. https://www.youtube.com/watch?v=nYqsnrHGsQg&list=RDCMUCbjozK_PYCTLEluFlrJ8UZg&start_radio=1
 2. https://www.youtube.com/watch?v=BlKCp97phsY
 3. https://www.youtube.com/watch?v=AWZkDFgJ9dI
@@ -28,7 +28,7 @@
 25. https://www.youtube.com/watch?v=TTak0grv0LQ&list=PLd3UqWTnYXOn7xetRSRuvaQyE-nyDqBew&index=28
 
 
-
+#### Durgasoft Tutorials | Struts 2 :
 1. https://www.youtube.com/watch?v=_NanCr424nU&list=PLd3UqWTnYXOn7xetRSRuvaQyE-nyDqBew&index=47
 2. https://www.youtube.com/watch?v=QW9SWZq8WwQ&list=PLd3UqWTnYXOn7xetRSRuvaQyE-nyDqBew&index=48
 3. https://www.youtube.com/watch?v=RJjsnUMxqMY&list=PLd3UqWTnYXOn7xetRSRuvaQyE-nyDqBew&index=49
@@ -47,6 +47,7 @@
 #### Struts 2 Tutorial by Ratnesh Prasad
 https://www.youtube.com/watch?v=VwNRg_Mj8ZI&list=PL5u3Zdsn3teh-RKFOCPc6_FfHC5ihK63p
 https://www.youtube.com/watch?v=Up8pyAK51Xg&list=PL5u3Zdsn3teh-RKFOCPc6_FfHC5ihK63p&index=2
+
 
 #### Struts 2 Tutorial by Tech Dojo - Shilpa Hemaraj
 https://www.youtube.com/watch?v=CHmYSbwI5WQ
