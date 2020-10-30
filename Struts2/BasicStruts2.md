@@ -51,3 +51,7 @@ https://www.youtube.com/watch?v=Up8pyAK51Xg&list=PL5u3Zdsn3teh-RKFOCPc6_FfHC5ihK
 
 #### Struts 2 Tutorial by Tech Dojo - Shilpa Hemaraj
 https://www.youtube.com/watch?v=CHmYSbwI5WQ
+
+#### Struts 2 Examples on Github
+https://github.com/apache/struts-examples
+
