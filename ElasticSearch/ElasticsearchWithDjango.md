@@ -68,3 +68,9 @@ https://sunscrapers.com/blog/how-to-use-elasticsearch-with-django/
 https://django-elasticsearch-dsl-drf.readthedocs.io/en/0.4.3/advanced_usage_examples.html
 
 https://djangotricks.blogspot.com/2018/06/data-filtering-in-a-django-website-using-elasticsearch.html
+
+https://qbox.io/blog/how-to-elasticsearch-python-django-part1
+
+https://github.com/barseghyanartur/django-elasticsearch-dsl-drf/tree/master/examples
+
+
