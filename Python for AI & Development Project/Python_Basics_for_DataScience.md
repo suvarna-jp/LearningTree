@@ -15,28 +15,28 @@ How to use pandas, a must have package for anyone attempting data analysis in Py
 ### Syllabus
 
 **Module 1 - Python Basics**
-Your first program
-Types
-Expressions and Variables
-String Operations
+1. Your first program
+2. Types
+3. Expressions and Variables
+4. String Operations
 
 **Module 2 - Python Data Structures**
-Lists and Tuples
-Sets
-Dictionaries
+1. Lists and Tuples
+2. Sets
+3. Dictionaries
 
 **Module 3 - Python Programming Fundamentals**
-Conditions and Branching
-Loops
-Functions
-Objects and Classes
+1. Conditions and Branching
+2. Loops
+3. Functions
+4. Objects and Classes
 
 **Module 4 - Working with Data in Python**
-Reading files with open
-Writing files with open
-Loading data with Pandas
-Working with and Saving data with Pandas
+1. Reading files with open
+2. Writing files with open
+3. Loading data with Pandas
+4. Working with and Saving data with Pandas
 
 **Module 5 - Working with Numpy Arrays**
-Numpy 1d Arrays
-Numpy 2d Arrays
+1. Numpy 1d Arrays
+2. Numpy 2d Arrays
