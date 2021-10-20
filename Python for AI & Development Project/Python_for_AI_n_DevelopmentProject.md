@@ -16,3 +16,22 @@ To be successful in completing this project, you should have already completed t
 ### Pre-requisites
 
 Python Basics for Data Science  course from IBM is a pre-requisite for this project course. Please ensure that before taking this course you have either completed the Python Basics for Data Science  course from IBM or have equivalent proficiency in working with Python and data.
+
+### What you'll learn
+
+After completing this course, you will be able to:
+
+Demonstrate Python basic skills for developing AI powered Applications.
+Describe the purpose of unit testing and packaging.
+Test your Python code.
+Create a Python Package.
+Expand your practical experience using IBM Watson APIs.
+
+
+### Syllabus
+
+Module 1: Course Introduction
+
+Module 2: Unit Testing and Packaging
+
+Module 3: Peer-graded Final Project: Build, Test and Package your Python Application
