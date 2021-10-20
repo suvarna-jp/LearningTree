@@ -21,11 +21,11 @@ Python Basics for Data Science  course from IBM is a pre-requisite for this proj
 
 After completing this course, you will be able to:
 
-Demonstrate Python basic skills for developing AI powered Applications.
-Describe the purpose of unit testing and packaging.
-Test your Python code.
-Create a Python Package.
-Expand your practical experience using IBM Watson APIs.
+1. Demonstrate Python basic skills for developing AI powered Applications.
+2. Describe the purpose of unit testing and packaging.
+3. Test your Python code.
+4. Create a Python Package.
+<p> Expand your practical experience using IBM Watson APIs.
 
 
 ### Syllabus
