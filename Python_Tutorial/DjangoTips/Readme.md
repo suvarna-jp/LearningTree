@@ -8,7 +8,7 @@ What you want is a context processor, and it's very easy to create one. Assuming
 Add custom_app to INSTALLED_APPS in settings.py (you've done it already, right?);
 
 Like this one below:
-
+```
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -25,6 +25,7 @@ INSTALLED_APPS = [
     'storages',
     'CrmWhatsapp.apps.CrmwhatsappConfig',
 ]
+```
 
 ####Step 2:
 Create a context_processors.py into custom_app folder;
@@ -41,6 +42,7 @@ Add context_processors.py to TEMPLATE_CONTEXT_PROCESSORS in settings.py
 
 To do this, look at the following code below:
 
+```
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -59,3 +61,4 @@ TEMPLATES = [
         },
     },
 ]
+```
