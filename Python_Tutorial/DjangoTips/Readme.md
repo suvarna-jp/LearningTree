@@ -1,10 +1,8 @@
-##Django - How to make a variable available to all templates?
-
-####Step 1:
+## Django - How to make a variable available to all templates?
 
 What you want is a context processor, and it's very easy to create one. Assuming you have an app named custom_app, follow the next steps:
 
-####Step 1:
+#### Step 1:
 Add custom_app to INSTALLED_APPS in settings.py (you've done it already, right?);
 
 Like this one below:
@@ -27,17 +25,17 @@ INSTALLED_APPS = [
 ]
 ```
 
-####Step 2:
+#### Step 2:
 Create a context_processors.py into custom_app folder;
 
-####Step 3:
+#### Step 3:
 Add the following code to that new file:
 
 def org_profile_processor(request):
  org_profile = OrganizationProfile.objects.all()            
  return {'org_profile': org_profile}
  
-####Step 4:
+#### Step 4:
 Add context_processors.py to TEMPLATE_CONTEXT_PROCESSORS in settings.py
 
 To do this, look at the following code below:
