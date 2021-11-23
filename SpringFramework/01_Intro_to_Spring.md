@@ -44,4 +44,4 @@ spring-boot-starter-jdbc
 
 The above commands give a ready project (web application project or JDBC project)
 
-
+To modify any configuration in the Spring Boot, we can use the `application.properties` file 
