@@ -2,6 +2,10 @@
 
 What you want is a context processor, and it's very easy to create one. Assuming you have an app named custom_app, follow the next steps:
 
+#### Step 0:
+
+```django manage.py startapp custom_app```
+
 #### Step 1:
 Add custom_app to INSTALLED_APPS in settings.py (you've done it already, right?);
 
