@@ -24,3 +24,24 @@
 As in... SpringBoot helps the developer setup all the basic required configuration so that a Spring Application skeleton is set to get started or even to the level of deployment.
 
 Developer |==>| SpringBoot |==>| SpringFramework
+
+SpringFramework needs jar files (dependencies) & configuration files.
+SpringBoot says, "Hey! I'll give you all the dependencies & configuration files.."
+Basically, SpringBoot gives a production-ready application.
+
+Deployment for Spring application depends on the 
+
+1. Hardware
+2. OS (OS layer like for example, Linux)
+3. Tomcat (Tomcat server installed on the Linux for example)
+4. App (WAR file)
+
+
+SpringBoot provides an Embedded Server (Example: Embedded Tomcat server) - which means it can run on any server.
+
+spring-boot-starter-web
+spring-boot-starter-jdbc
+
+The above commands give a ready project (web application project or JDBC project)
+
+
