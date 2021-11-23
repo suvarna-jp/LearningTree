@@ -64,3 +64,10 @@ TEMPLATES = [
     },
 ]
 ```
+
+#### Step 5:
+
+On any template, you may use the org_profile object's field values like for example by using the following to display logo on `header.html` :
+```
+<img style="width: 100px; height: 60px;" src="{{ org_profile.org_logo.url }}"/>
+```
