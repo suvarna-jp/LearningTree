@@ -58,6 +58,8 @@ To modify any configuration in the Spring Boot, we can use the `application.prop
   - Security
   - Database
 3. Non-functional Features
+  - Easy to configure using `App config profile file`
+  - Simplified Deployment because of SpringBoot's `Embedded Server`
 
 
 ##### Auto Configurations
@@ -86,4 +88,9 @@ For any application to be deployed, it goes through the following phases :
 
 DB configurations may be different for each of the above envs
 Springboot makes it easy to store these configurations in `App Config profile file`
+
+Conventional method of deploying an application was using multiple layers
+
+`WAR file` <--on-- `Tomcat Server` <--on-- `Java` <--on-- `Hardware Machine`
+
 
