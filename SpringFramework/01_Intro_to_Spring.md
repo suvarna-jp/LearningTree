@@ -45,3 +45,33 @@ spring-boot-starter-jdbc
 The above commands give a ready project (web application project or JDBC project)
 
 To modify any configuration in the Spring Boot, we can use the `application.properties` file 
+
+#### SpringBoot Features :
+---------------------------
+
+1. Auto Configurations
+2. Integrate Starter project
+3.  - Web
+4.  - WebServer
+5.  - Database
+6. 
+
+
+###### Auto Configurations
+
+Develop a Web Application
+Add a Spring MVC dependency to Classpath 
+eg: Add hibernate.jar to classpath 
+
+
+###### Integrate Starter project
+
+Faster integration of projects
+SpringBoot Starter Project
+
+1. spring-boot-starter-web (Web Application / REST API Application)
+2. spring-boot-starter-webservice
+3. spring-boot-starter-aop
+4. spring-boot-starter-test
+5. spring-boot-starter-security
+6. spring-boot-starter-datajpa
