@@ -85,5 +85,5 @@ For any application to be deployed, it goes through the following phases :
 `Dev Env` --> `QA Env` --> `Stage/UAT Env` --> `Production Env`
 
 DB configurations may be different for each of the above envs
-Springboot makes it easy to store these configurations in `App Config properties file`
+Springboot makes it easy to store these configurations in `App Config profile file`
 
