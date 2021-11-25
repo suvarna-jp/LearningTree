@@ -104,3 +104,4 @@ With SpringBoot's Embedded Server, it gets reduced to
 3. `Actuators` help by Adding monitoring features around our application
 4. `Developer Tools` - restart happens automatically after any change is made on the code and saved. This saves time for developers.
 
+Checkout JPA tutorial notes next ...
