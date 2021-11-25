@@ -1,3 +1,5 @@
+Reference video: [Learning Path 01 - Spring and Spring Boot Web Applications and REST API Developer - LP](https://www.youtube.com/watch?v=W_E6iSTBqNs&list=PLBBog2r6uMCTM_CKntPT-GIMR2-4d55Un&index=1)
+
 ## Spring Features:
 -------------------
 
@@ -60,6 +62,8 @@ To modify any configuration in the Spring Boot, we can use the `application.prop
 3. Non-functional Features
   - Easy to configure using `App config profile file`
   - Simplified Deployment because of SpringBoot's `Embedded Server`
+  - Monitoring because of SpringBoot's `Actuator`
+  - Faster Developement because of SpringBoot's `Developer Tools`
 
 
 ##### Auto Configurations
@@ -82,15 +86,21 @@ Faster integration of projects using SpringBoot Starter Project
 
 ##### Non-functional Features
 
-For any application to be deployed, it goes through the following phases :
+1. For any application to be deployed, it goes through the following phases :
 
 `Dev Env` --> `QA Env` --> `Stage/UAT Env` --> `Production Env`
 
 DB configurations may be different for each of the above envs
 Springboot makes it easy to store these configurations in `App Config profile file`
 
-Conventional method of deploying an application was using multiple layers
+2. Conventional method of deploying a Java application was using multiple layers
 
 `WAR file` <--on-- `Tomcat Server` <--on-- `Java` <--on-- `Hardware Machine`
 
+With SpringBoot's Embedded Server, it gets reduced to
+
+`JAR file (Tomcat JAR)` <--on-- `Java`
+
+3. `Actuators` help by Adding monitoring features around our application
+4. `Developer Tools` - restart happens automatically after any change is made on the code and saved. This saves time for developers.
 
