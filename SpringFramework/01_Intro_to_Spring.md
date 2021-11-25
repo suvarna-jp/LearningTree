@@ -60,14 +60,14 @@ To modify any configuration in the Spring Boot, we can use the `application.prop
 3. Non-functional Features
 
 
-###### Auto Configurations
+##### Auto Configurations
 
 Develop a Web Application
 Add a Spring MVC dependency to Classpath 
 eg: Add hibernate.jar to classpath 
 
 
-###### Integrate Starter project
+##### Integrate Starter project
 
 Faster integration of projects using SpringBoot Starter Project
 
@@ -78,7 +78,7 @@ Faster integration of projects using SpringBoot Starter Project
 5. spring-boot-starter-security
 6. spring-boot-starter-datajpa
 
-###### Non-functional Features
+##### Non-functional Features
 
 For any application to be deployed, it goes through the following phases :
 
