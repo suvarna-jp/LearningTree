@@ -51,10 +51,13 @@ To modify any configuration in the Spring Boot, we can use the `application.prop
 
 1. Auto Configurations
 2. Integrate Starter project
-3.  - Web
-4.  - WebServer
-5.  - Database
-6. 
+  - Web
+  - WebServer
+  - AOP
+  - Test
+  - Security
+  - Database
+3. Non-functional Features
 
 
 ###### Auto Configurations
@@ -66,8 +69,7 @@ eg: Add hibernate.jar to classpath
 
 ###### Integrate Starter project
 
-Faster integration of projects
-SpringBoot Starter Project
+Faster integration of projects using SpringBoot Starter Project
 
 1. spring-boot-starter-web (Web Application / REST API Application)
 2. spring-boot-starter-webservice
@@ -75,3 +77,13 @@ SpringBoot Starter Project
 4. spring-boot-starter-test
 5. spring-boot-starter-security
 6. spring-boot-starter-datajpa
+
+###### Non-functional Features
+
+For any application to be deployed, it goes through the following phases :
+
+`Dev Env` --> `QA Env` --> `Stage/UAT Env` --> `Production Env`
+
+DB configurations may be different for each of the above envs
+Springboot makes it easy to store these configurations in `App Config properties file`
+
