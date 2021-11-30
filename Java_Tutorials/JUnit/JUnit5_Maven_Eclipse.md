@@ -3,6 +3,8 @@
 
 https://www.youtube.com/watch?v=ats-pzzz3H8
 
+https://kkjavatutorials.com/how-to-execute-junit-5-tests-in-eclipse-ide/
+
 
 ## Maven dependencies to be added for JUnit in pom.xml are:
 
@@ -63,3 +65,48 @@ https://www.youtube.com/watch?v=ats-pzzz3H8
 		</plugins>
 	</build>
 ```
+
+
+
+## Brief introduction on  JUnit 5 Annotations
+---------------------------------------------
+
+JUnit Jupiter sub-project supports the following ***annotations for configuring tests and extending the framework.***
+
+All core annotations are bundled in the `org.junit.jupiter.api` package in the `junit-jupiter-api` module.
+
+> @Test
+
+This annotation denotes that a method is a test method and this does not declare any attributes.
+
+> @BeforeAll
+
+This annotation usually denotes that the annotated test method should be executed before all @Test, @ParameterizedTest, @RepeatedTest and @TestFactory methods in the current class.it is similar to JUnit 4  @Before Class annotation.
+
+> @AfterAll
+
+This annotation usually denotes that the annotated test method should be executed after all @Test, @ParameterizedTest,@RepeatedTest,and @TestFactory methods in the current class. It is  analogous to JUnit 4 @AfterClass annotation.
+
+> @BeforeEach
+
+This annotation usually indicates that the annotated method should be executed before each @Test, @ParameterizedTest, @RepeatedTest or @TestFactory method in the current test class. It is analogous to JUnit 4 @Before annotation
+
+> @AfterEach
+
+This annotation usually indicates that the annotated method should be executed after each @Test, @ParameterizedTest,@RepeatedTestor @TestFactory method in the current test class . it is primarily analogous to JUnit 4  @After annotation
+
+> @DisplayName
+
+This annotation is used for a custom display name for the test class or test method
+
+> @DisplayNameGeneration
+
+This annotation is used to declare a custom display name generator for the test class.
+
+> @Disabled
+
+This annotation  used to disable a test class or test method. It is analogous to JUnit 4 @Ignore annotation .
+
+> @Timeout
+
+This annotation   is used to fail a test, test factory, test template, or lifecycle method if its execution exceeds a given time duration
