@@ -4,6 +4,11 @@
 https://proliferay.com/xml-configuration-files-for-spring-mvc/
 
 
+## Important files involved in Spring MVC Framework
+----------------------------------------------------
+
+### 1. web.xml
+
 1. `web.xml` contains information about DispacherServlet(s)
 2. There can be many DispacherServlets associated/defined in a single web.xml
 3. For every <servlet> with DispacherServlet name, there needs to be defined a <servlet-mapping> that defines the .xml file associated with the DispacherServlet. Check out the code below to understand: (or refer the link mentioned above : https://proliferay.com/xml-configuration-files-for-spring-mvc/)
@@ -38,3 +43,12 @@ https://proliferay.com/xml-configuration-files-for-spring-mvc/
     </servlet-mapping>
   </web-app>
   ```
+
+  
+  ### 2. dispatcher-servlet.xml
+  
+  The associated `dispatcher-servlet.xml` file(s). (Multiple example `dispatcher1-servlet.xml`, `dispatcher2-servlet.xml` as mentioned in the above point)
+  
+  
+  
+  ### 3. 
