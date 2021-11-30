@@ -5,15 +5,16 @@
 2. Reports/Log files
 3. Utility files
 4. Unit test files (Test Scripts - Data Driven - Page Object Model)
-  - Using JUnit (Test Scripts - Data Driven)
-  - Using Page Object Model
+    - Using JUnit (Test Scripts - Data Driven)
+    - Using Page Object Model
 5. Maven (Build Tool)
-  - Taking care of dependencies
-  - Running unit tests/test scripts
+    - Taking care of dependencies
+    - Running unit tests/test scripts
 6. Runner
-  - Like Jenkins/Selenium...etc... any CI tool
-  - We created a .bat (batch) file to execute this run
+    - Like Jenkins/Selenium...etc... any CI tool
+    - We created a .bat (batch) file to execute this run
 7. The Source files! (Java coding)
+8. Version control (SVN, Git)
 
 
 
