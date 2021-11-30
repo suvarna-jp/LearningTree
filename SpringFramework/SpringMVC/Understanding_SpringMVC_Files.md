@@ -9,6 +9,10 @@ https://proliferay.com/xml-configuration-files-for-spring-mvc/
 3. For every <servlet> with DispacherServlet name, there needs to be defined a <servlet-mapping> that defines the .xml file associated with the DispacherServlet. Check out the code below to understand: (or refer the link mentioned above : https://proliferay.com/xml-configuration-files-for-spring-mvc/)
   
   ```
+  3. Multiple DispatcherServlet in single web.xml
+
+  **Its also possible to have multiple DispatcherServlet in single web.xml. Here is an example**
+  
   <?xml version="1.0" encoding="UTF-8"?>
   <web-app version="3.1"
   xmlns="http://xmlns.jcp.org/xml/ns/javaee"
