@@ -90,4 +90,4 @@ End of Sprint meeting
 5. Potentially Shippable Product
 6. Sprint Review + Retrospective
 
-
+Repeat the above workflow for each sprint...
