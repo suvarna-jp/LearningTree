@@ -10,6 +10,8 @@ https://www.youtube.com/watch?v=eGWre4YpUFQ
 
 https://www.youtube.com/watch?v=9TycLR0TqFA
 
+https://www.youtube.com/watch?v=apOvF9NVguA
+
 
 ##### Waterfall Model
 
@@ -91,3 +93,8 @@ End of Sprint meeting
 6. Sprint Review + Retrospective
 
 Repeat the above workflow for each sprint...
+
+##### Agile User Stories
+-------------------------
+
+https://www.youtube.com/watch?v=apOvF9NVguA
