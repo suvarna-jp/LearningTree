@@ -1,7 +1,24 @@
-# Steps to follow to upload files to GIT_HUB
-
 ## Readme file - How to write .md files 
 https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md
+
+# Steps to follow to upload files to GIT_HUB
+# ------------------------------------------
+
+### Follow these steps to project to Github
+
+1) git init
+
+2) git add .
+
+3) git commit -m "Add all my files"
+
+4) git remote add origin https://github.com/yourusername/your-repo-name.git
+
+### **Upload of project from scratch require git pull origin master.**
+
+5) git pull origin master
+
+6) git push origin master
 
 ## To checkout a branch on your name to your local system
 git checkout -b <your_name___topic_name = branch_name>
