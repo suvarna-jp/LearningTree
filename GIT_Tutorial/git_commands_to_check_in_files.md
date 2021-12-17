@@ -2,7 +2,6 @@
 https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md
 
 # Steps to follow to upload files to GIT_HUB
-# ------------------------------------------
 
 ### Follow these steps to project to Github
 
