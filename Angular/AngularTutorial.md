@@ -7,15 +7,15 @@ https://www.youtube.com/watch?v=W5dEbsHrb9k
 ### Angular Installation Steps
 -------------------------------
 
-1. Install NodeJS from `https://nodejs.org/en/download/`
-2. Check installation by typing (in a cmd terminal) -- `node -v`
+##### 1. Install NodeJS from `https://nodejs.org/en/download/`
+###### 1.1) Check installation by typing (in a cmd terminal) -- `node -v`
   If installed successfully, it displays the version of node installed.
   Like,
   ```
   C:\Users\Suvarna Joshi>node -v
   v12.18.0
   ```
-3. Install typescript using `npm install -g typescript`
+##### 2. Install typescript using `npm install -g typescript`
   You should be able to see something like,
   
   ```
@@ -26,14 +26,14 @@ https://www.youtube.com/watch?v=W5dEbsHrb9k
   added 1 package from 1 contributor in 2.177s
   ```
   
-4. To check if Typescript has been installed properly, type `tsc -v` 
+###### 2.1) Check if Typescript has been installed properly, type `tsc -v` 
 
   You may see something like this below,
   ```
   C:\Users\Suvarna Joshi>tsc -v
   Version 4.5.4
   ```
-5. Install Angular using `npm install -g @angular/cli`
+##### 3. Install Angular using `npm install -g @angular/cli`
 
   Like,
   ```
@@ -60,14 +60,14 @@ https://www.youtube.com/watch?v=W5dEbsHrb9k
   added 183 packages from 134 contributors in 108.61s
   ```
   
-  After `upgrading Node.js version to 16.13.1 version`,
+  ###### 3.01) After `upgrading Node.js version to 16.13.1 version`,
   
   ```
     C:\Users\Suvarna Joshi>node -v
     v16.13.1
   ```
   
-  Updated Angular installation again...
+  ###### 3.02) Updated Angular installation again...
   
   ```
   C:\Users\Suvarna Joshi>npm install -g @angular/cli
@@ -85,7 +85,7 @@ npm notice Run npm install -g npm@8.3.0 to update!
 npm notice
 ```
   
-6. Updated npm install as it had prompted above: (using `npm install -g npm@8.3.0`)
+###### 3.03) Updated npm install as it had prompted above: (using `npm install -g npm@8.3.0`)
 
 ```
 C:\Users\Suvarna Joshi>npm install -g npm@8.3.0
@@ -111,4 +111,35 @@ found 0 vulnerabilities
 
 ```
 
-7. 
+###### 3.1) Check if Angular was installed properly, using `ng version`
+
+Like,
+```
+C:\Users\Suvarna Joshi>ng version
+
+     _                      _                 ____ _     ___
+    / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
+   / △ \ | '_ \ / _` | | | | |/ _` | '__|   | |   | |    | |
+  / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
+ /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
+                |___/
+
+
+Angular CLI: 13.1.2
+Node: 16.13.1
+Package Manager: npm 8.3.0
+OS: win32 x64
+
+Angular:
+...
+
+Package                      Version
+------------------------------------------------------
+@angular-devkit/architect    0.1301.2 (cli-only)
+@angular-devkit/core         13.1.2 (cli-only)
+@angular-devkit/schematics   13.1.2 (cli-only)
+@schematics/angular          13.1.2 (cli-only)
+
+```
+
+4. 
