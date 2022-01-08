@@ -4,7 +4,7 @@
 https://www.youtube.com/watch?v=W5dEbsHrb9k
 
 
-## Angular Installation Steps
+## Angular Installation | Steps
 -------------------------------
 
 ##### 1. Install NodeJS from `https://nodejs.org/en/download/`
@@ -148,6 +148,7 @@ Package                      Version
 ---------------------------------------------
 
 5. To start a new Angular project, use `ng new <project_name>`
+  ##### 5.1) When prompted `? Would you like to add Angular routing?`, type `Yes`
 
   Like,
   ```
@@ -160,3 +161,91 @@ Package                      Version
     Less   [ http://lesscss.org
 
    ```
+   
+   ##### 5.2) When prompted `? Which stylesheet format would you like to use?` Type `CSS` (default option if not specific about any particular stylesheet)
+   
+   ```
+    CREATE MyFirstAngularProjDemo/angular.json (3139 bytes)
+    CREATE MyFirstAngularProjDemo/package.json (1090 bytes)
+    CREATE MyFirstAngularProjDemo/README.md (1068 bytes)
+    CREATE MyFirstAngularProjDemo/tsconfig.json (863 bytes)
+    CREATE MyFirstAngularProjDemo/.editorconfig (274 bytes)
+    CREATE MyFirstAngularProjDemo/.gitignore (620 bytes)
+    CREATE MyFirstAngularProjDemo/.browserslistrc (600 bytes)
+    CREATE MyFirstAngularProjDemo/karma.conf.js (1443 bytes)
+    CREATE MyFirstAngularProjDemo/tsconfig.app.json (287 bytes)
+    CREATE MyFirstAngularProjDemo/tsconfig.spec.json (333 bytes)
+    CREATE MyFirstAngularProjDemo/.vscode/extensions.json (130 bytes)
+    CREATE MyFirstAngularProjDemo/.vscode/launch.json (474 bytes)
+    CREATE MyFirstAngularProjDemo/.vscode/tasks.json (938 bytes)
+    CREATE MyFirstAngularProjDemo/src/favicon.ico (948 bytes)
+    CREATE MyFirstAngularProjDemo/src/index.html (308 bytes)
+    CREATE MyFirstAngularProjDemo/src/main.ts (372 bytes)
+    CREATE MyFirstAngularProjDemo/src/polyfills.ts (2338 bytes)
+    CREATE MyFirstAngularProjDemo/src/styles.css (80 bytes)
+    CREATE MyFirstAngularProjDemo/src/test.ts (745 bytes)
+    CREATE MyFirstAngularProjDemo/src/assets/.gitkeep (0 bytes)
+    CREATE MyFirstAngularProjDemo/src/environments/environment.prod.ts (51 bytes)
+    CREATE MyFirstAngularProjDemo/src/environments/environment.ts (658 bytes)
+    CREATE MyFirstAngularProjDemo/src/app/app-routing.module.ts (245 bytes)
+    CREATE MyFirstAngularProjDemo/src/app/app.module.ts (393 bytes)
+    CREATE MyFirstAngularProjDemo/src/app/app.component.html (23364 bytes)
+    CREATE MyFirstAngularProjDemo/src/app/app.component.spec.ts (1121 bytes)
+    CREATE MyFirstAngularProjDemo/src/app/app.component.ts (226 bytes)
+    CREATE MyFirstAngularProjDemo/src/app/app.component.css (0 bytes)
+    √ Packages installed successfully.
+    warning: LF will be replaced by CRLF in .browserslistrc.
+    The file will have its original line endings in your working directory
+    warning: LF will be replaced by CRLF in .editorconfig.
+    The file will have its original line endings in your working directory
+    warning: LF will be replaced by CRLF in .gitignore.
+    The file will have its original line endings in your working directory
+    warning: LF will be replaced by CRLF in .vscode/extensions.json.
+    The file will have its original line endings in your working directory
+    warning: LF will be replaced by CRLF in .vscode/launch.json.
+    The file will have its original line endings in your working directory
+    warning: LF will be replaced by CRLF in .vscode/tasks.json.
+    The file will have its original line endings in your working directory
+    warning: LF will be replaced by CRLF in README.md.
+    The file will have its original line endings in your working directory
+    warning: LF will be replaced by CRLF in angular.json.
+    The file will have its original line endings in your working directory
+    warning: LF will be replaced by CRLF in karma.conf.js.
+    The file will have its original line endings in your working directory
+    warning: LF will be replaced by CRLF in package-lock.json.
+    The file will have its original line endings in your working directory
+    warning: LF will be replaced by CRLF in package.json.
+    The file will have its original line endings in your working directory
+    warning: LF will be replaced by CRLF in src/app/app-routing.module.ts.
+    The file will have its original line endings in your working directory
+    warning: LF will be replaced by CRLF in src/app/app.component.html.
+    The file will have its original line endings in your working directory
+    warning: LF will be replaced by CRLF in src/app/app.component.spec.ts.
+    The file will have its original line endings in your working directory
+    warning: LF will be replaced by CRLF in src/app/app.component.ts.
+    The file will have its original line endings in your working directory
+    warning: LF will be replaced by CRLF in src/app/app.module.ts.
+    The file will have its original line endings in your working directory
+    warning: LF will be replaced by CRLF in src/environments/environment.prod.ts.
+    The file will have its original line endings in your working directory
+    warning: LF will be replaced by CRLF in src/environments/environment.ts.
+    The file will have its original line endings in your working directory
+    warning: LF will be replaced by CRLF in src/index.html.
+    The file will have its original line endings in your working directory
+    warning: LF will be replaced by CRLF in src/main.ts.
+    The file will have its original line endings in your working directory
+    warning: LF will be replaced by CRLF in src/polyfills.ts.
+    The file will have its original line endings in your working directory
+    warning: LF will be replaced by CRLF in src/styles.css.
+    The file will have its original line endings in your working directory
+    warning: LF will be replaced by CRLF in src/test.ts.
+    The file will have its original line endings in your working directory
+    warning: LF will be replaced by CRLF in tsconfig.app.json.
+    The file will have its original line endings in your working directory
+    warning: LF will be replaced by CRLF in tsconfig.json.
+    The file will have its original line endings in your working directory
+    warning: LF will be replaced by CRLF in tsconfig.spec.json.
+    The file will have its original line endings in your working directory
+        Successfully initialized git.
+   ```
+
