@@ -142,4 +142,4 @@ Package                      Version
 
 ```
 
-4. 
+4. We shall use VSCode as Editor. [VSCode Download available @ https://code.visualstudio.com/download]
