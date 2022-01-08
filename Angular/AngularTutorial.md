@@ -85,4 +85,30 @@ npm notice Run npm install -g npm@8.3.0 to update!
 npm notice
 ```
   
-6. 
+6. Updated npm install as it had prompted above: (using `npm install -g npm@8.3.0`)
+
+```
+C:\Users\Suvarna Joshi>npm install -g npm@8.3.0
+
+added 2 packages, and audited 39 packages in 5s
+
+1 moderate severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+
+
+C:\Users\Suvarna Joshi>npm audit
+found 0 vulnerabilities
+
+C:\Users\Suvarna Joshi>npm audit fix
+
+up to date, audited 1 package in 361ms
+
+found 0 vulnerabilities
+
+```
+
+7. 
