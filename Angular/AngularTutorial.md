@@ -13,7 +13,7 @@ https://www.youtube.com/watch?v=W5dEbsHrb9k
   Like,
   ```
   C:\Users\Suvarna Joshi>node -v
-  v12.18.0
+  v16.13.1
   ```
 3. Install typescript using `npm install -g typescript`
   You should be able to see something like,
