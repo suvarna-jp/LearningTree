@@ -4,7 +4,7 @@
 https://www.youtube.com/watch?v=W5dEbsHrb9k
 
 
-### Angular Installation Steps
+## Angular Installation Steps
 -------------------------------
 
 ##### 1. Install NodeJS from `https://nodejs.org/en/download/`
@@ -143,3 +143,20 @@ Package                      Version
 ```
 
 4. We shall use VSCode as Editor. [VSCode Download available @ https://code.visualstudio.com/download]
+
+## Angular Start New Angular Project | Steps
+---------------------------------------------
+
+5. To start a new Angular project, use `ng new <project_name>`
+
+  Like,
+  ```
+  C:\Users\Suvarna Joshi\Documents\SuvWorkProjects\PersonalLearning\AngularProjects\MyFirstAngularProject>ng new MyFirstAngularProjDemo
+  ? Would you like to add Angular routing? Yes
+  ? Which stylesheet format would you like to use? (Use arrow keys)
+  > CSS
+    SCSS   [ https://sass-lang.com/documentation/syntax#scss                ]
+    Sass   [ https://sass-lang.com/documentation/syntax#the-indented-syntax ]
+    Less   [ http://lesscss.org
+
+   ```
