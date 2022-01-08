@@ -13,7 +13,7 @@ https://www.youtube.com/watch?v=W5dEbsHrb9k
   Like,
   ```
   C:\Users\Suvarna Joshi>node -v
-  v16.13.1
+  v12.18.0
   ```
 3. Install typescript using `npm install -g typescript`
   You should be able to see something like,
@@ -59,5 +59,30 @@ https://www.youtube.com/watch?v=W5dEbsHrb9k
   + @angular/cli@13.1.2
   added 183 packages from 134 contributors in 108.61s
   ```
+  
+  After `upgrading Node.js version to 16.13.1 version`,
+  
+  ```
+    C:\Users\Suvarna Joshi>node -v
+    v16.13.1
+  ```
+  
+  Updated Angular installation again...
+  
+  ```
+  C:\Users\Suvarna Joshi>npm install -g @angular/cli
+
+changed 183 packages, and audited 184 packages in 21s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+npm notice
+npm notice New minor version of npm available! 8.1.2 -> 8.3.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v8.3.0
+npm notice Run npm install -g npm@8.3.0 to update!
+npm notice
+```
   
 6. 
