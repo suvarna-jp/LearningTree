@@ -25,3 +25,12 @@ https://www.youtube.com/watch?v=W5dEbsHrb9k
   + typescript@4.5.4
   added 1 package from 1 contributor in 2.177s
   ```
+  
+4. To check if Typescript has been installed properly, type `tsc -v` 
+
+  You may see something like this below,
+  ```
+  C:\Users\Suvarna Joshi>tsc -v
+  Version 4.5.4
+  ```
+5. 
